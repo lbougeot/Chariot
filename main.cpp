@@ -10,8 +10,8 @@ using namespace std;
 int main()
 {
     Trajectoire laTrajectoire(1);
-   Segment lesSegments(9,0);
-   Segment lesSegments2(5,0.927295);
+   Segment lesSegments(9,0,3);
+   Segment lesSegments2(5,0.927295,1);
    laTrajectoire.Afficher();
    lesSegments.Afficher();
    lesSegments2.Afficher();
