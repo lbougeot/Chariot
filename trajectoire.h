@@ -19,7 +19,7 @@ public:
 private:
     int nbEtapesMax;
     int prochaineEtape;
-    Element **lesElements;
+    Element **parcours;
     int index;
 };
 

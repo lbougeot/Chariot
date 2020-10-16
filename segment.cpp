@@ -1,3 +1,13 @@
+/**
+  * @file   :   segment.cpp
+  * @brief implémentation de la classe Segment
+  * @version 1.0
+  * @author :   Louis Bougeot
+  * @date   :   15/10/2020
+  * @detail :   Classe gestions des Segments
+  *
+  */
+
 #include "segment.h"
 #include <string>
 #include <iostream>

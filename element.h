@@ -24,6 +24,9 @@ public:
 
     int getVitesse() const;
     void setVitesse(int value);
+    void ObtenirLongueur();
+    void ObtenirDuree();
+    void ObtenirVecteurArivee();
 
 protected:
     int numero;

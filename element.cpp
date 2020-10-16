@@ -1,3 +1,13 @@
+/**
+  * @file   :   element.cpp
+  * @brief implémentation de la classe Element
+  * @version 1.0
+  * @author :   Louis Bougeot
+  * @date   :   15/10/2020
+  * @detail :   Classe gestions des éléments
+  *
+  */
+
 #include "element.h"
 #include <string>
 #include <iostream>
@@ -42,3 +52,21 @@ void Element::setVitesse(int value)
 {
     vitesse = value;
 }
+
+/*
+
+void Element::ObtenirLongueur()
+{
+
+}
+
+void Element::ObtenirDuree()
+{
+
+}
+
+void Element::ObtenirVecteurArivee()
+{
+
+}
+*/
