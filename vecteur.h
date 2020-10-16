@@ -1,3 +1,4 @@
+/*
 #include <string>
 #include <iostream>
 
@@ -13,10 +14,12 @@ public:
     Vecteur operator+(const string _autre);
     Vecteur operator-(const string _autre);
     void Afficher();
-    void setX(const double _x);
-    double getX();
-    void setY(const double _y);
-    double getY();
+
+    double getX() const;
+    void setX(double value);
+
+    double getY() const;
+    void setY(double value);
 
 private:
     double x;
@@ -24,3 +27,4 @@ private:
 };
 
 #endif // VECTEUR_H
+*/

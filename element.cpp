@@ -54,19 +54,24 @@ void Element::setVitesse(int value)
 }
 
 /*
-
-void Element::ObtenirLongueur()
+float Element::ObtenirLongueur()
 {
 
 }
 
-void Element::ObtenirDuree()
+float Element::ObtenirDuree()
 {
 
 }
 
-void Element::ObtenirVecteurArivee()
+float Element::ObtenirVecteurArivee()
 {
 
 }
 */
+
+
+
+
+
+

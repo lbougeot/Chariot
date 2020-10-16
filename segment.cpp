@@ -16,7 +16,7 @@
 using namespace std;
 
 
-Segment::Segment(const double _longueur, const double _angle,const int _vitesse):
+Segment::Segment(const double _longueur, const double _angle, const int _vitesse):
     longueur(_longueur),
     angle(_angle),
     vitesse(_vitesse)
