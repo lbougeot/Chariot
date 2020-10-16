@@ -19,11 +19,12 @@ int main()
 
 
 
-        Trajectoire laTrajectoire(1);
+        Trajectoire laTrajectoire(2);
         Segment lesSegments(9,0,3);
         Segment lesSegments2(5,0.927295,1);
         laTrajectoire.Afficher();
         lesSegments.Afficher();
+        laTrajectoire.Ajouter(&lesSegments2);
         lesSegments2.Afficher();
 
 
