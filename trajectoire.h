@@ -18,6 +18,9 @@ public:
     void Afficher();
 private:
     int nbEtapesMax;
+    int prochaineEtape;
+    Element **parcours;
+    int index;
 };
 
 #endif // TRAJECTOIRE_H

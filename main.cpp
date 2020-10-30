@@ -20,10 +20,11 @@ int main()
 
 
         Trajectoire laTrajectoire(2);
-        Segment lesSegments(9,0);
-        Segment lesSegments2(5,0.927295);
+        Segment lesSegments(9,0,3);
+        Segment lesSegments2(5,0.927295,1);
         laTrajectoire.Afficher();
         lesSegments.Afficher();
+        laTrajectoire.Ajouter(&lesSegments2);
         lesSegments2.Afficher();
 
 
@@ -32,3 +33,4 @@ int main()
 
     return 0;
 }
+
