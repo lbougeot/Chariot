@@ -16,15 +16,14 @@
 using namespace std;
 
 
-Segment::Segment(const double _longueur, const double _angle, const int _vitesse):
+Segment::Segment(const double _longueur, const double _angle):
     longueur(_longueur),
-    angle(_angle),
-    vitesse(_vitesse)
+    angle(_angle)
 {
-    cout << "Constructeur de la classe Segment" << endl;
+
 }
 
 void Segment::Afficher()
 {
-    cout << "(" << numero << ")" << "SEGMENT L = " << longueur << setfill(' ') << setw(10) << "A = " << angle << setfill(' ') << setw(10) << "V = " << vitesse << endl;
+    cout << "SEGMENT L = " << longueur << setfill(' ') << setw(10) << "A = " << angle << setfill(' ') << setw(10) << endl;
 }
